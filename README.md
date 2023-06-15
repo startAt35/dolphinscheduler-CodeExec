@@ -39,6 +39,8 @@ Further use, modify the command, you can query the configuration file informatio
 View profile information
 ![](pic/Pasted%20image%2020230615162934.png)
 
+The detailed log information is as follows：
+
 ```log
 [LOG-PATH]: /opt/dolphinscheduler/logs/20230615/9905261601664_3-2-8.log, [HOST]:  Host{address='172.18.0.7:1234', ip='172.18.0.7', port=1234}
 
