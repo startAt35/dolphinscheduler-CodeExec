@@ -1,4 +1,4 @@
-# Introduction
+# DolphinScheduler  introduction
 Apache DolphinScheduler is a distributed and easily extensible open source system for visual DAG workflow task scheduling. Applicable to enterprise-level scenarios, it provides a solution for visualizing operational tasks, workflows, and data processing processes throughout the life cycle.
 
 **Reproduce the environment**
@@ -11,7 +11,12 @@ Deployment method:docker-compose
 
 ![](pic/Pasted%20image%2020230615155445.png)
 
+# Vulnerability overview
+
+After ordinary users log in to the system, they can execute arbitrary commands, view server files, and even take over the server by using workflow and task examples
+
 # Vulnerability details
+
 Log in to the system as a common user admin1
 ![](pic/Pasted%20image%2020230615155647.png)
 Go to Project - Workflow Definition - Create Workflow
